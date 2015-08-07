@@ -1,14 +1,14 @@
-# Gyazo Selfie
-The simplest and fastest selfie  uploading tool.
+# JiGyazo
+The simplest and fastest selfie uploading tool.
 
 [![Gyazo](https://i.gyazo.com/ddfc83c16c92f66a48529c80090803b5.png)](https://gyazo.com/ddfc83c16c92f66a48529c80090803b5)
 
 ## Install
-Download Gyazo-Selfie.zip and run app.
+Download zip and run app.
 
-https://github.com/uiureo/Gyazo-Selfie/releases/download/v2.0.0/Gyazo-Selfie.zip
+https://github.com/uiureo/JiGyazo/releases/download/v2.0.0/Gyazo-Selfie.zip
 
-Gyazo Selfie requires **imagemagick** and **imagesnap**.
+JiGyazo requires **imagemagick** and **imagesnap**.
 
 ```
 brew install imagemagick imagesnap
