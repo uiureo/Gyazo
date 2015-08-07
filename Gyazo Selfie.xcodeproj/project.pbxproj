@@ -17,15 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		10F3CA241499F92900F62513 /* Gyazo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gyazo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F3CA241499F92900F62513 /* Gyazo Selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gyazo Selfie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F3CA281499F92900F62513 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		10F3CA2B1499F92900F62513 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		10F3CA2C1499F92900F62513 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		10F3CA2D1499F92900F62513 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		10F3CA301499F92900F62513 /* Gyazo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gyazo-Info.plist"; sourceTree = "<group>"; };
+		10F3CA301499F92900F62513 /* Gyazo Selfie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gyazo Selfie-Info.plist"; sourceTree = "<group>"; };
 		10F3CA321499F92900F62513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10F3CA341499F92900F62513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		10F3CA361499F92900F62513 /* Gyazo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gyazo-Prefix.pch"; sourceTree = "<group>"; };
+		10F3CA361499F92900F62513 /* Gyazo Selfie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gyazo Selfie-Prefix.pch"; sourceTree = "<group>"; };
 		10F3CA3A1499F92900F62513 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10F3CA3B1499F92900F62513 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		10F3CA3E1499F92A00F62513 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		10F3CA251499F92900F62513 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10F3CA241499F92900F62513 /* Gyazo.app */,
+				10F3CA241499F92900F62513 /* Gyazo Selfie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,10 +97,10 @@
 			children = (
 				10F3CA471499FC4400F62513 /* script */,
 				10F3CA451499FC3D00F62513 /* appIcon.icns */,
-				10F3CA301499F92900F62513 /* Gyazo-Info.plist */,
+				10F3CA301499F92900F62513 /* Gyazo Selfie-Info.plist */,
 				10F3CA311499F92900F62513 /* InfoPlist.strings */,
 				10F3CA341499F92900F62513 /* main.m */,
-				10F3CA361499F92900F62513 /* Gyazo-Prefix.pch */,
+				10F3CA361499F92900F62513 /* Gyazo Selfie-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		10F3CA231499F92900F62513 /* Gyazo */ = {
+		10F3CA231499F92900F62513 /* Gyazo Selfie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10F3CA421499F92A00F62513 /* Build configuration list for PBXNativeTarget "Gyazo" */;
+			buildConfigurationList = 10F3CA421499F92A00F62513 /* Build configuration list for PBXNativeTarget "Gyazo Selfie" */;
 			buildPhases = (
 				10F3CA201499F92900F62513 /* Sources */,
 				10F3CA211499F92900F62513 /* Frameworks */,
@@ -120,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = Gyazo;
+			name = "Gyazo Selfie";
 			productName = Gyazo;
-			productReference = 10F3CA241499F92900F62513 /* Gyazo.app */;
+			productReference = 10F3CA241499F92900F62513 /* Gyazo Selfie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,8 +132,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
+				TargetAttributes = {
+					10F3CA231499F92900F62513 = {
+						DevelopmentTeam = 9647Y3B7A4;
+					};
+				};
 			};
-			buildConfigurationList = 10F3CA1E1499F92900F62513 /* Build configuration list for PBXProject "Gyazo" */;
+			buildConfigurationList = 10F3CA1E1499F92900F62513 /* Build configuration list for PBXProject "Gyazo Selfie" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				10F3CA231499F92900F62513 /* Gyazo */,
+				10F3CA231499F92900F62513 /* Gyazo Selfie */,
 			);
 		};
 /* End PBXProject section */
@@ -250,12 +255,13 @@
 		10F3CA431499F92A00F62513 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Gyazo/Gyazo-Prefix.pch";
-				INFOPLIST_FILE = "Gyazo/Gyazo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Gyazo/Gyazo Selfie-Prefix.pch";
+				INFOPLIST_FILE = "Gyazo/Gyazo Selfie-Info.plist";
+				PRODUCT_NAME = "Gyazo Selfie";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,12 +270,13 @@
 		10F3CA441499F92A00F62513 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Gyazo/Gyazo-Prefix.pch";
-				INFOPLIST_FILE = "Gyazo/Gyazo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Gyazo/Gyazo Selfie-Prefix.pch";
+				INFOPLIST_FILE = "Gyazo/Gyazo Selfie-Info.plist";
+				PRODUCT_NAME = "Gyazo Selfie";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10F3CA1E1499F92900F62513 /* Build configuration list for PBXProject "Gyazo" */ = {
+		10F3CA1E1499F92900F62513 /* Build configuration list for PBXProject "Gyazo Selfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10F3CA401499F92A00F62513 /* Debug */,
@@ -287,7 +294,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10F3CA421499F92A00F62513 /* Build configuration list for PBXNativeTarget "Gyazo" */ = {
+		10F3CA421499F92A00F62513 /* Build configuration list for PBXNativeTarget "Gyazo Selfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10F3CA431499F92A00F62513 /* Debug */,
