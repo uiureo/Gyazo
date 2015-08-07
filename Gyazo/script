@@ -41,6 +41,11 @@ if !File.exist?(tmpfile) then
   exit
 end
 
+# selfie feature
+`/usr/local/bin/imagesnap -q -w 2 /tmp/snapshot#{$$}.png &&
+ /usr/local/bin/convert /tmp/snapshot#{$$}.png -thumbnail 200x200^ -gravity center -extent 200x200 /tmp/thumb#{$$}.png &&
+ /usr/local/bin/convert #{tmpfile} /tmp/thumb#{$$}.png -gravity southeast  -geometry +20+20 -composite #{tmpfile}`
+
 imagedata = File.read(tmpfile)
 File.delete(tmpfile)
 
