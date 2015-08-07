@@ -19,6 +19,10 @@ brew install imagemagick imagesnap
 
 [![Gyazo](https://i.gyazo.com/3939b7408168c83997253ed4d74b0020.png)](https://gyazo.com/3939b7408168c83997253ed4d74b0020)
 
+[![Gyazo](https://i.gyazo.com/14949cc6bb77629cc9ce3d090c98e509.png)](https://gyazo.com/14949cc6bb77629cc9ce3d090c98e509)
+
+Create PR to add your awesome selfie here.
+
 ## Copyright
 
 Copyright (c) 2014 Nota Inc.
