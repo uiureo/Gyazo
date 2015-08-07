@@ -17,6 +17,8 @@ brew install imagemagick imagesnap
 ## Gallery
 [![Gyazo](https://i.gyazo.com/e9b0258c160410c4145903a43dcf917b.png)](https://gyazo.com/e9b0258c160410c4145903a43dcf917b)
 
+[![Gyazo](https://i.gyazo.com/3939b7408168c83997253ed4d74b0020.png)](https://gyazo.com/3939b7408168c83997253ed4d74b0020)
+
 ## Copyright
 
 Copyright (c) 2014 Nota Inc.
