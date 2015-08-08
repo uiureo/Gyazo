@@ -42,12 +42,12 @@ if !File.exist?(tmpfile) then
 end
 
 imagesnap_path = File.expand_path('../imagesnap', __FILE__)
-p imagesnap_path
 
 # selfie feature
-`#{imagesnap_path} -q -w 2 /tmp/snapshot#{$$}.png &&
- /usr/local/bin/convert /tmp/snapshot#{$$}.png -thumbnail 200x200^ -gravity center -extent 200x200 /tmp/thumb#{$$}.png &&
- /usr/local/bin/convert #{tmpfile} /tmp/thumb#{$$}.png -gravity southeast  -geometry +20+20 -composite #{tmpfile}`
+`bash -c '#{imagesnap_path} -q -w 2 /tmp/snapshot#{$$}.png && export PATH=/usr/local/bin:$PATH &&
+ convert /tmp/snapshot#{$$}.png -thumbnail 200x200^ -gravity center -extent 200x200 /tmp/thumb#{$$}.png &&
+ convert #{tmpfile} /tmp/thumb#{$$}.png -gravity southeast  -geometry +20+20 -composite #{tmpfile}'`
+
 
 imagedata = File.read(tmpfile)
 File.delete(tmpfile)
