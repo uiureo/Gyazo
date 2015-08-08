@@ -24,7 +24,7 @@ if imagefile && File.exist?(imagefile) then
 else
   system "screencapture -i \"#{tmpfile}\""
   if File.exist?(tmpfile) then
-    system "sips -d profile --deleteColorManagementProperties \"#{tmpfile}\""  
+    system "sips -d profile --deleteColorManagementProperties \"#{tmpfile}\""
     dpiWidth    = `sips -g dpiWidth "#{tmpfile}" | awk '/:/ {print $2}'`
     dpiHeight   = `sips -g dpiHeight "#{tmpfile}" | awk '/:/ {print $2}'`
     pixelWidth  = `sips -g pixelWidth "#{tmpfile}" | awk '/:/ {print $2}'`
@@ -41,8 +41,11 @@ if !File.exist?(tmpfile) then
   exit
 end
 
+imagesnap_path = File.expand_path('../imagesnap', __FILE__)
+p imagesnap_path
+
 # selfie feature
-`/usr/local/bin/imagesnap -q -w 2 /tmp/snapshot#{$$}.png &&
+`#{imagesnap_path} -q -w 2 /tmp/snapshot#{$$}.png &&
  /usr/local/bin/convert /tmp/snapshot#{$$}.png -thumbnail 200x200^ -gravity center -extent 200x200 /tmp/thumb#{$$}.png &&
  /usr/local/bin/convert #{tmpfile} /tmp/thumb#{$$}.png -gravity southeast  -geometry +20+20 -composite #{tmpfile}`
 

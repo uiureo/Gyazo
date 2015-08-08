@@ -14,15 +14,16 @@
 		10F3CA3F1499F92A00F62513 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10F3CA3D1499F92A00F62513 /* MainMenu.xib */; };
 		10F3CA461499FC3D00F62513 /* appIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 10F3CA451499FC3D00F62513 /* appIcon.icns */; };
 		10F3CA481499FC4400F62513 /* script in Resources */ = {isa = PBXBuildFile; fileRef = 10F3CA471499FC4400F62513 /* script */; };
+		5564D2D11B75BC8900C8062D /* imagesnap in Resources */ = {isa = PBXBuildFile; fileRef = 5564D2D01B75BC8900C8062D /* imagesnap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		10F3CA241499F92900F62513 /* Gyazo Selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gyazo Selfie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F3CA241499F92900F62513 /* JiGyazo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiGyazo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F3CA281499F92900F62513 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		10F3CA2B1499F92900F62513 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		10F3CA2C1499F92900F62513 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		10F3CA2D1499F92900F62513 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		10F3CA301499F92900F62513 /* Gyazo Selfie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gyazo Selfie-Info.plist"; sourceTree = "<group>"; };
+		10F3CA301499F92900F62513 /* JiGyazo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JiGyazo-Info.plist"; sourceTree = "<group>"; };
 		10F3CA321499F92900F62513 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10F3CA341499F92900F62513 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10F3CA361499F92900F62513 /* Gyazo Selfie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gyazo Selfie-Prefix.pch"; sourceTree = "<group>"; };
@@ -31,6 +32,7 @@
 		10F3CA3E1499F92A00F62513 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		10F3CA451499FC3D00F62513 /* appIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appIcon.icns; sourceTree = "<group>"; };
 		10F3CA471499FC4400F62513 /* script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = script; sourceTree = "<group>"; };
+		5564D2D01B75BC8900C8062D /* imagesnap */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = imagesnap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 		10F3CA251499F92900F62513 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10F3CA241499F92900F62513 /* Gyazo Selfie.app */,
+				10F3CA241499F92900F62513 /* JiGyazo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +97,10 @@
 		10F3CA2F1499F92900F62513 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5564D2D01B75BC8900C8062D /* imagesnap */,
 				10F3CA471499FC4400F62513 /* script */,
 				10F3CA451499FC3D00F62513 /* appIcon.icns */,
-				10F3CA301499F92900F62513 /* Gyazo Selfie-Info.plist */,
+				10F3CA301499F92900F62513 /* JiGyazo-Info.plist */,
 				10F3CA311499F92900F62513 /* InfoPlist.strings */,
 				10F3CA341499F92900F62513 /* main.m */,
 				10F3CA361499F92900F62513 /* Gyazo Selfie-Prefix.pch */,
@@ -108,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		10F3CA231499F92900F62513 /* Gyazo Selfie */ = {
+		10F3CA231499F92900F62513 /* JiGyazo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10F3CA421499F92A00F62513 /* Build configuration list for PBXNativeTarget "Gyazo Selfie" */;
+			buildConfigurationList = 10F3CA421499F92A00F62513 /* Build configuration list for PBXNativeTarget "JiGyazo" */;
 			buildPhases = (
 				10F3CA201499F92900F62513 /* Sources */,
 				10F3CA211499F92900F62513 /* Frameworks */,
@@ -120,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = "Gyazo Selfie";
+			name = JiGyazo;
 			productName = Gyazo;
-			productReference = 10F3CA241499F92900F62513 /* Gyazo Selfie.app */;
+			productReference = 10F3CA241499F92900F62513 /* JiGyazo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 10F3CA1E1499F92900F62513 /* Build configuration list for PBXProject "Gyazo Selfie" */;
+			buildConfigurationList = 10F3CA1E1499F92900F62513 /* Build configuration list for PBXProject "JiGyazo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -150,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				10F3CA231499F92900F62513 /* Gyazo Selfie */,
+				10F3CA231499F92900F62513 /* JiGyazo */,
 			);
 		};
 /* End PBXProject section */
@@ -160,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5564D2D11B75BC8900C8062D /* imagesnap in Resources */,
 				10F3CA331499F92900F62513 /* InfoPlist.strings in Resources */,
 				10F3CA3F1499F92A00F62513 /* MainMenu.xib in Resources */,
 				10F3CA461499FC3D00F62513 /* appIcon.icns in Resources */,
@@ -259,9 +263,9 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Gyazo/Gyazo Selfie-Prefix.pch";
-				INFOPLIST_FILE = "Gyazo/Gyazo Selfie-Info.plist";
-				PRODUCT_NAME = "Gyazo Selfie";
+				GCC_PREFIX_HEADER = "Gyazo/JiGyazo-Prefix.pch";
+				INFOPLIST_FILE = "Gyazo/JiGyazo-Info.plist";
+				PRODUCT_NAME = JiGyazo;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,9 +278,9 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Gyazo/Gyazo Selfie-Prefix.pch";
-				INFOPLIST_FILE = "Gyazo/Gyazo Selfie-Info.plist";
-				PRODUCT_NAME = "Gyazo Selfie";
+				GCC_PREFIX_HEADER = "Gyazo/JiGyazo-Prefix.pch";
+				INFOPLIST_FILE = "Gyazo/JiGyazo-Info.plist";
+				PRODUCT_NAME = JiGyazo;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -285,7 +289,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10F3CA1E1499F92900F62513 /* Build configuration list for PBXProject "Gyazo Selfie" */ = {
+		10F3CA1E1499F92900F62513 /* Build configuration list for PBXProject "JiGyazo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10F3CA401499F92A00F62513 /* Debug */,
@@ -294,7 +298,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10F3CA421499F92A00F62513 /* Build configuration list for PBXNativeTarget "Gyazo Selfie" */ = {
+		10F3CA421499F92A00F62513 /* Build configuration list for PBXNativeTarget "JiGyazo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10F3CA431499F92A00F62513 /* Debug */,
